@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XtremeTV</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>XtremeTV</h1>
+    <nav><a href="#">Home</a><a href="#">Live</a></nav>
+  </header>
+  <main id="content">
+    <div class="channel-grid">
+      <div class="channel">
+        <video controls onclick="toggleFullscreen(this)" src="http://mains.services/live/pmf0423/1aku0jt%40/18781949-8721-4c4e-9ee9-974fb0a9b8dc.m3u"></video>
+        <p>Comedy Central West HD</p>
+      </div>
+      <div class="channel">
+        <video controls onclick="toggleFullscreen(this)" src="http://mains.services/live/pmf0423/1aku0jt%40/f9920e48-e327-4c55-b97a-236ee91add67.m3u"></video>
+        <p>ABC (LA SO CAL)</p>
+      </div>
+      <div class="channel">
+        <video controls onclick="toggleFullscreen(this)" src="http://mains.services/live/pmf0423/1aku0jt%40/78c58af1-620e-4dfa-9422-d52a1f5d73cc.m3u"></video>
+        <p>A&E HD</p>
+      </div>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
